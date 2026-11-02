@@ -1,0 +1,9 @@
+/* STYLE.CSS Main Entry Point
+   TapakKarir.id
+   Mengimport seluruh stylesheet secara terurut dan modular. */
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+@import "./base.css";
+@import "./layout.css";
+@import "./components.css";

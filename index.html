@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Panduan lengkap memulai karier digital untuk fresh graduate dan mahasiswa Indonesia. Temukan jalur karier, skill yang dibutuhkan, dan langkah nyata pertamamu."
+    />
+    <meta name="author" content="Alfin Himawan" />
+
+    <title>TapakKarir.id</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png" />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Reading Progress Bar -->
+    <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+
+    <!-- HEADER -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <!-- Logo -->
+        <a
+          href="index.html"
+          class="site-logo"
+          aria-label="TapakKarir.id Halaman Utama"
+        >
+          <img src="assets/images/logo.png" alt="TapakKarir.id" height="36" />
+          <span class="logo-text">Tapak<span>Karir</span>.id</span>
+        </a>
+
+        <!-- Navigation -->
+        <nav class="site-nav" id="siteNav" aria-label="Navigasi utama">
+          <ul class="nav-list" role="list">
+            <li>
+              <a
+                href="#beranda"
+                class="nav-link nav-link--active"
+                aria-current="page"
+                ><i class="fa-solid fa-house"></i> Beranda</a
+              >
+            </li>
+            <li>
+              <a href="#jalur-karier" class="nav-link"
+                ><i class="fa-solid fa-route"></i> Jalur Karier</a
+              >
+            </li>
+            <li>
+              <a href="#skill-dasar" class="nav-link"
+                ><i class="fa-solid fa-bolt"></i> Skill Dasar</a
+              >
+            </li>
+            <li>
+              <a href="#langkah-awal" class="nav-link"
+                ><i class="fa-solid fa-rocket"></i> Langkah Awal</a
+              >
+            </li>
+          </ul>
+          <div class="nav-actions">
+            <a
+              href="https://www.dicoding.com/users/alfinhimawan/academies"
+              class="nav-link nav-link--profile"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Profil Dicoding Alfin Himawan (membuka di tab baru)"
+            >
+              <i class="fa-solid fa-user"></i> Profil Dicoding
+            </a>
+          </div>
+        </nav>
+
+        <!-- Hamburger Toggle (mobile) -->
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-controls="siteNav"
+          aria-expanded="false"
+          aria-label="Buka menu navigasi"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda" aria-label="Pengantar halaman">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-inner">
+            <h1 class="hero-title">
+              Mulai karier digitalmu dari <mark>langkah yang tepat</mark>
+            </h1>
+
+            <p class="hero-description">
+              Banyak fresh graduate Indonesia punya potensi besar, tapi bingung
+              harus mulai dari mana. TapakKarir hadir untuk membantumu memilih
+              jalur, membangun skill, dan mengambil langkah pertama dengan percaya
+              diri.
+            </p>
+
+            <div class="hero-cta">
+              <a href="#kenapa-digital" class="btn-primary">
+                Mulai Membaca
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M8 3v10M3 8l5 5 5-5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img 
+              src="assets/images/hero-illustration.jpg" 
+              alt="Ilustrasi profesional muda bekerja secara digital"
+              width="600"
+              height="600"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main" id="main-content">
+      <article>
+        <!-- === Intro: Kenapa Karier Digital === -->
+        <section id="kenapa-digital-section" class="bg-surface-raised py-section" aria-labelledby="kenapa-digital">
+        <div class="container">
+            <div class="intro-grid">
+              <div class="intro-content">
+                <h2 id="kenapa-digital">Kenapa Karier Digital?</h2>
+
+                <p>
+                  Indonesia adalah salah satu negara dengan pertumbuhan ekonomi
+                  digital tercepat di Asia Tenggara. Berdasarkan berbagai
+                  laporan industri, kebutuhan tenaga kerja di bidang teknologi
+                  terus meningkat setiap tahunnya, sementara jumlah talenta yang
+                  siap kerja belum sebanding dengan permintaan yang ada.
+                </p>
+
+                <p>
+                  Artinya: peluangnya nyata, dan celah antara permintaan dengan
+                  ketersediaan talenta adalah kesempatan bagimu sebagai fresh
+                  graduate untuk masuk dan berkembang.
+                </p>
+              </div>
+              
+              <aside class="intro-aside">
+                <div style="text-align: center; margin-bottom: var(--space-4);">
+                  <img src="assets/images/aside-illustration.jpg" alt="Ilustrasi ide brilian dan pemahaman" width="120" height="120" style="border-radius: var(--radius-full); object-fit: cover;" />
+                </div>
+                <div class="callout">
+                  <p class="callout-label">Perlu diingat</p>
+                  <p>
+                    Karier digital bukan hanya soal jadi programmer. Ada banyak
+                    jalur yang bisa dipilih sesuai minat dan kekuatanmu dari
+                    desain, data, hingga pemasaran digital. Yang penting adalah
+                    memilih jalur yang tepat dan memulai dengan langkah yang
+                    terencana.
+                  </p>
+                </div>
+              </aside>
+            </div>
+        </div>
+      </section>
+
+      <!-- === Menu: Jalur Karier === -->
+      <section id="jalur-karier" class="bg-surface py-section" aria-labelledby="jalur-karier-heading">
+        <div class="container">
+                <h2 id="jalur-karier-heading">
+                  Jalur Karier yang Bisa Kamu Pilih
+                </h2>
+
+                <p>
+                  Sebelum mulai belajar, tentukan dulu jalur mana yang paling
+                  sesuai dengan minat dan kekuatanmu. Berikut empat jalur yang
+                  paling banyak dicari di industri digital Indonesia saat ini:
+                </p>
+
+                <div class="career-grid">
+                  <!-- Card: Frontend Developer -->
+                  <div class="career-card">
+                    <div class="career-card-header">
+                      <div class="career-card-icon" aria-hidden="true">
+                        <i class="fa-solid fa-laptop-code"></i>
+                      </div>
+                      <div>
+                        <p class="career-card-title">Frontend Developer</p>
+                        <span class="career-card-demand demand-high"
+                          >Permintaan Tinggi</span
+                        >
+                      </div>
+                    </div>
+                    <p class="career-card-desc">
+                      Bertanggung jawab membangun tampilan dan interaksi pada
+                      sebuah website atau aplikasi web. Cocok jika kamu suka
+                      hal-hal yang visual, detail, dan langsung bisa dilihat
+                      hasilnya.
+                    </p>
+                    <div class="career-card-skills">
+                      <span class="badge badge--outline">HTML & CSS</span>
+                      <span class="badge badge--outline">JavaScript</span>
+                      <span class="badge badge--outline">React / Vue</span>
+                      <span class="badge badge--outline"
+                        >Responsive Design</span
+                      >
+                    </div>
+                  </div>
+
+                  <!-- Card: UI/UX Designer -->
+                  <div class="career-card">
+                    <div class="career-card-header">
+                      <div class="career-card-icon" aria-hidden="true">
+                        <i class="fa-solid fa-palette"></i>
+                      </div>
+                      <div>
+                        <p class="career-card-title">UI/UX Designer</p>
+                        <span class="career-card-demand demand-high"
+                          >Permintaan Tinggi</span
+                        >
+                      </div>
+                    </div>
+                    <p class="career-card-desc">
+                      Merancang pengalaman pengguna yang intuitif dan tampilan
+                      yang menarik. Jalur ini ideal jika kamu memiliki
+                      sensitivitas visual yang tinggi dan peduli pada kemudahan
+                      penggunaan produk.
+                    </p>
+                    <div class="career-card-skills">
+                      <span class="badge badge--outline">Figma</span>
+                      <span class="badge badge--outline">Design System</span>
+                      <span class="badge badge--outline">Prototyping</span>
+                      <span class="badge badge--outline">User Research</span>
+                    </div>
+                  </div>
+
+                  <!-- Card: Data Analyst -->
+                  <div class="career-card">
+                    <div class="career-card-header">
+                      <div class="career-card-icon" aria-hidden="true">
+                        <i class="fa-solid fa-chart-simple"></i>
+                      </div>
+                      <div>
+                        <p class="career-card-title">Data Analyst</p>
+                        <span class="career-card-demand demand-high"
+                          >Permintaan Tinggi</span
+                        >
+                      </div>
+                    </div>
+                    <p class="career-card-desc">
+                      Mengolah dan menginterpretasikan data untuk membantu
+                      perusahaan mengambil keputusan yang lebih baik. Cocok jika
+                      kamu suka angka, logika, dan melihat pola dari sekumpulan
+                      informasi.
+                    </p>
+                    <div class="career-card-skills">
+                      <span class="badge badge--outline">SQL</span>
+                      <span class="badge badge--outline">Python / Excel</span>
+                      <span class="badge badge--outline">Visualisasi Data</span>
+                      <span class="badge badge--outline">Statistik Dasar</span>
+                    </div>
+                  </div>
+
+                  <!-- Card: Digital Marketer -->
+                  <div class="career-card">
+                    <div class="career-card-header">
+                      <div class="career-card-icon" aria-hidden="true">
+                        <i class="fa-solid fa-bullhorn"></i>
+                      </div>
+                      <div>
+                        <p class="career-card-title">Digital Marketer</p>
+                        <span class="career-card-demand demand-medium"
+                          >Permintaan Stabil</span
+                        >
+                      </div>
+                    </div>
+                    <p class="career-card-desc">
+                      Merencanakan dan menjalankan strategi pemasaran secara
+                      online mulai dari media sosial, iklan berbayar, hingga
+                      optimasi mesin pencari. Ideal untuk kamu yang komunikatif
+                      dan memahami perilaku konsumen.
+                    </p>
+                    <div class="career-card-skills">
+                      <span class="badge badge--outline">SEO / SEM</span>
+                      <span class="badge badge--outline">Social Media</span>
+                      <span class="badge badge--outline">Google Ads</span>
+                      <span class="badge badge--outline">Content Strategy</span>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </section>
+
+      <!-- === Menu: Skill Dasar === -->
+      <section id="skill-dasar" class="bg-surface-raised py-section" aria-labelledby="skill-dasar-heading">
+        <div class="container">
+                <h2 id="skill-dasar-heading">
+                  Skill Dasar yang Wajib Dimiliki
+                </h2>
+
+                <p>
+                  Apapun jalur karier yang kamu pilih, ada beberapa skill
+                  fondasi yang berlaku universal di industri digital. Skill ini
+                  bukan tentang tool atau bahasa pemrograman tertentu, melainkan
+                  kemampuan yang membuat kamu bisa terus berkembang di bidang
+                  apapun.
+                </p>
+
+                <div class="skill-list">
+                  <div class="skill-item">
+                    <div class="skill-item-check" aria-hidden="true">
+                      <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                        <path
+                          d="M2 6l3 3 5-5"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="skill-item-content">
+                      <p class="skill-item-title">Kemampuan Belajar Mandiri</p>
+                      <p class="skill-item-desc">
+                        Industri digital bergerak cepat. Kemampuan untuk belajar
+                        sendiri mencari dokumentasi, memahami konsep baru, dan
+                        mencoba langsung adalah skill yang nilainya melebihi
+                        hafalan materi.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-item-check" aria-hidden="true">
+                      <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                        <path
+                          d="M2 6l3 3 5-5"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="skill-item-content">
+                      <p class="skill-item-title">
+                        Komunikasi Tertulis yang Jelas
+                      </p>
+                      <p class="skill-item-desc">
+                        Banyak pekerjaan digital dilakukan secara remote atau
+                        lintas tim. Kemampuan menyampaikan ide, laporan, dan
+                        pertanyaan secara jelas dalam tulisan sangat menentukan
+                        efektivitasmu sebagai anggota tim.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-item-check" aria-hidden="true">
+                      <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                        <path
+                          d="M2 6l3 3 5-5"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="skill-item-content">
+                      <p class="skill-item-title">
+                        Pemahaman Dasar Git & Version Control
+                      </p>
+                      <p class="skill-item-desc">
+                        Hampir semua pekerjaan teknis di industri digital
+                        menggunakan Git untuk mengelola kode. Memahami
+                        dasar-dasar version control akan membuat kamu siap
+                        bekerja dalam tim sejak hari pertama.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-item-check" aria-hidden="true">
+                      <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                        <path
+                          d="M2 6l3 3 5-5"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div class="skill-item-content">
+                      <p class="skill-item-title">Mindset Problem-Solving</p>
+                      <p class="skill-item-desc">
+                        Menghadapi error, bug, atau desain yang tidak sesuai
+                        adalah bagian sehari-hari dari pekerjaan digital.
+                        Kemampuan untuk berpikir sistematis dan tidak mudah
+                        menyerah ketika menghadapi masalah adalah pembeda antara
+                        yang bertahan dan yang tidak.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </section>
+
+      <!-- === Menu: Langkah Awal === -->
+      <section id="langkah-awal" class="bg-surface py-section" aria-labelledby="langkah-awal-heading">
+        <div class="container">
+                <h2 id="langkah-awal-heading">
+                  Langkah Pertama yang Bisa Dilakukan Sekarang
+                </h2>
+
+                <p>
+                  Salah satu kesalahan terbesar fresh graduate adalah terlalu
+                  lama di tahap "persiapan" tanpa pernah benar-benar memulai.
+                  Berikut adalah roadmap bertahap yang realistis untuk memulai
+                  karier digitalmu dalam 90 hari ke depan:
+                </p>
+
+                <div class="roadmap">
+                  <div class="roadmap-item">
+                    <div class="roadmap-step" aria-label="Langkah 1">1</div>
+                    <div class="roadmap-content">
+                      <p class="roadmap-title">
+                        Pilih satu jalur karier dan fokus
+                      </p>
+                      <p class="roadmap-desc">
+                        Jangan mencoba mempelajari semuanya sekaligus. Pilih
+                        satu jalur yang paling sesuai dengan minatmu, lalu
+                        pelajari secara mendalam selama minimal 30–60 hari
+                        pertama sebelum mengeksplorasi area lain.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="roadmap-item">
+                    <div class="roadmap-step" aria-label="Langkah 2">2</div>
+                    <div class="roadmap-content">
+                      <p class="roadmap-title">
+                        Selesaikan satu kursus terstruktur
+                      </p>
+                      <p class="roadmap-desc">
+                        Belajar dari YouTube atau artikel saja sering kali tidak
+                        terstruktur. Ambil satu kursus yang punya kurikulum
+                        jelas Dicoding, Coursera, atau platform lain yang punya
+                        jalur belajar yang terorganisasi.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="roadmap-item">
+                    <div class="roadmap-step" aria-label="Langkah 3">3</div>
+                    <div class="roadmap-content">
+                      <p class="roadmap-title">
+                        Buat proyek nyata, sekecil apapun
+                      </p>
+                      <p class="roadmap-desc">
+                        Portfolio berbicara lebih keras dari sertifikat. Mulai
+                        dengan proyek sederhana yang benar-benar menyelesaikan
+                        masalah baik untukmu sendiri maupun orang lain. Kualitas
+                        lebih penting dari kuantitas.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="roadmap-item">
+                    <div class="roadmap-step" aria-label="Langkah 4">4</div>
+                    <div class="roadmap-content">
+                      <p class="roadmap-title">
+                        Bangun kehadiran online yang profesional
+                      </p>
+                      <p class="roadmap-desc">
+                        Lengkapi profil LinkedIn, buat akun GitHub, dan mulai
+                        dokumentasikan perjalanan belajarmu. Rekruter aktif
+                        mencari talenta di platform-platform ini, bahkan sebelum
+                        kamu mengirimkan lamaran.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="roadmap-item">
+                    <div class="roadmap-step" aria-label="Langkah 5">5</div>
+                    <div class="roadmap-content">
+                      <p class="roadmap-title">
+                        Mulai networking, jangan tunggu "siap"
+                      </p>
+                      <p class="roadmap-desc">
+                        Ikut komunitas online dan offline yang relevan dengan
+                        jalur kariermu. Bergabung dengan komunitas seperti
+                        Discord developer, grup LinkedIn, atau meetup lokal.
+                        Koneksi yang dibangun sejak dini sering kali membuka
+                        pintu peluang yang tidak terduga.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <h2 id="resource-belajar" style="margin-top: var(--space-12);">Resource Belajar Terpercaya</h2>
+
+                <p>
+                  Berikut beberapa platform dan resource yang terbukti efektif
+                  untuk memulai dan mengembangkan skill karier digital,
+                  khususnya untuk konteks Indonesia:
+                </p>
+
+                <div class="resource-list">
+                  <a
+                    href="https://www.dicoding.com"
+                    class="resource-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Dicoding - Platform belajar coding terkemuka di Indonesia (membuka di tab baru)"
+                  >
+                    <div class="resource-icon" aria-hidden="true">
+                      <img
+                        src="assets/images/dicoding.jpg"
+                        alt="Dicoding"
+                        height="32"
+                        style="border-radius: 6px"
+                      />
+                    </div>
+                    <div class="resource-info">
+                      <p class="resource-name">Dicoding</p>
+                      <p class="resource-desc">
+                        Platform belajar coding terkemuka di Indonesia dengan
+                        kurikulum terstruktur dan sertifikasi yang diakui
+                        industri.
+                      </p>
+                    </div>
+                    <svg
+                      class="resource-arrow"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://www.coursera.org"
+                    class="resource-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Coursera - Kursus dari universitas dan perusahaan kelas dunia (membuka di tab baru)"
+                  >
+                    <div class="resource-icon" aria-hidden="true">
+                      <img
+                        src="assets/images/coursera.png"
+                        alt="Logo Coursera"
+                        height="32"
+                        style="border-radius: 6px"
+                      />
+                    </div>
+                    <div class="resource-info">
+                      <p class="resource-name">Coursera</p>
+                      <p class="resource-desc">
+                        Kursus dari universitas dan perusahaan kelas dunia.
+                        Banyak kursus tersedia gratis dengan opsi sertifikat
+                        berbayar.
+                      </p>
+                    </div>
+                    <svg
+                      class="resource-arrow"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://github.com"
+                    class="resource-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub - Platform version control dan kolaborasi kode (membuka di tab baru)"
+                  >
+                    <div class="resource-icon" aria-hidden="true">
+                      <img
+                        src="assets/images/github.png"
+                        alt="Logo GitHub"
+                        height="32"
+                        style="
+                          border-radius: 6px;
+                          background: #fff;
+                          padding: 2px;
+                        "
+                      />
+                    </div>
+                    <div class="resource-info">
+                      <p class="resource-name">GitHub</p>
+                      <p class="resource-desc">
+                        Tempat menyimpan dan menampilkan proyek kode. Profil
+                        GitHub yang aktif adalah portfolio paling kuat untuk
+                        developer.
+                      </p>
+                    </div>
+                    <svg
+                      class="resource-arrow"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com"
+                    class="resource-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn - Jaringan profesional dan platform pencari kerja (membuka di tab baru)"
+                  >
+                    <div class="resource-icon" aria-hidden="true">
+                      <img
+                        src="assets/images/linkedin.png"
+                        alt="Logo LinkedIn"
+                        height="32"
+                        style="border-radius: 6px"
+                      />
+                    </div>
+                    <div class="resource-info">
+                      <p class="resource-name">LinkedIn</p>
+                      <p class="resource-desc">
+                        Bangun profil profesionalmu dan mulai terhubung dengan
+                        rekruter, mentor, dan sesama profesional di industri
+                        digital.
+                      </p>
+                    </div>
+                    <svg
+                      class="resource-arrow"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M3 8h10M9 4l4 4-4 4"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="callout">
+                  <p class="callout-label">Tips dari pengalaman</p>
+                  <p>
+                    Jangan menunggu sampai merasa "cukup siap" untuk mulai
+                    melamar atau membangun portfolio. Tidak ada titik di mana
+                    kamu akan merasa sepenuhnya siap dan itu normal. Mulailah
+                    dari mana kamu berada sekarang, dengan apa yang sudah kamu
+                    punya.
+                  </p>
+                </div>
+        </div>
+      </section>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-top">
+            <div class="footer-brand">
+              <div class="footer-logo">
+                <img
+                  src="assets/images/logo.png"
+                  alt="TapakKarir.id"
+                  height="36"
+                />
+                <span class="logo-text">Tapak<span>Karir</span>.id</span>
+              </div>
+              <p class="footer-tagline">
+                Panduan karier digital untuk fresh graduate Indonesia yang ingin
+                memulai perjalanan profesional dengan langkah yang tepat.
+              </p>
+            </div>
+
+            <!-- Links: Konten -->
+            <div class="footer-links-group">
+              <p class="footer-links-title">Konten</p>
+              <a href="#jalur-karier" class="footer-link">Jalur Karier</a>
+              <a href="#skill-dasar" class="footer-link">Skill Dasar</a>
+              <a href="#langkah-awal" class="footer-link">Langkah Awal</a>
+              <a href="#resource-belajar" class="footer-link"
+                >Resource Belajar</a
+              >
+            </div>
+
+            <!-- Links: Tentang -->
+            <div class="footer-links-group">
+              <p class="footer-links-title">Tentang</p>
+              <div
+                style="display: flex; gap: var(--space-4); align-items: center"
+              >
+                <a
+                  href="https://www.dicoding.com/users/alfinhimawan/academies"
+                  class="footer-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Profil Dicoding"
+                >
+                  <i class="fa-solid fa-user" style="font-size: 24px"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  class="footer-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="fa-brands fa-github" style="font-size: 24px"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com"
+                  class="footer-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin" style="font-size: 24px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p class="footer-copyright">
+              &copy; 2026 TapakKarir.id Dibuat oleh
+              <a
+                href="https://www.dicoding.com/users/alfinhimawan/academies"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Alfin Himawan
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
